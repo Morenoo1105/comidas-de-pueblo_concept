@@ -1,82 +1,72 @@
-import images from './images';
+import images from "./images";
 
-const wines = [
+const primeros = [
   {
-    title: 'Chapel Hill Shiraz',
-    price: '$56',
-    tags: 'AU | Bottle',
+    title: "Paella de marisco",
+    price: "6,75€",
+    tags: "Alérgenos",
   },
   {
-    title: 'Catena Malbee',
-    price: '$59',
-    tags: 'AU | Bottle',
+    title: "Risotto de jamón ibérico",
+    price: "6,95€",
+    tags: "Alérgenos",
   },
   {
-    title: 'La Vieillw Rose',
-    price: '$44',
-    tags: 'FR | 750 ml',
+    title: "Caracoles con jamón y chorizo",
+    price: "8,50€",
+    tags: "Alérgenos",
   },
   {
-    title: 'Rhino Pale Ale',
-    price: '$31',
-    tags: 'CA | 750 ml',
+    title: "Canelones de carne o atún",
+    price: "5,50€",
+    tags: "Alérgenos",
   },
   {
-    title: 'Irish Guinness',
-    price: '$26',
-    tags: 'IE | 750 ml',
+    title: "Migas a la pastora con huevo frito",
+    price: "5,50€",
+    tags: "Alérgenos",
   },
 ];
 
-const cocktails = [
+const segundos = [
   {
-    title: 'Aperol Sprtiz',
-    price: '$20',
-    tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
+    title: "Estofado de ternera Asturiana",
+    price: "6,95€",
+    tags: "Alérgenos",
   },
   {
-    title: "Dark 'N' Stormy",
-    price: '$16',
-    tags: 'Dark rum | Ginger beer | Slice of lime',
+    title: "Rape en salsa verde con langostinos",
+    price: "6,50€",
+    tags: "Alérgenos",
   },
   {
-    title: 'Daiquiri',
-    price: '$10',
-    tags: 'Rum | Citrus juice | Sugar',
+    title: "Vieira rellena de merluza",
+    price: "4,50€",
+    tags: "Alérgenos",
   },
   {
-    title: 'Old Fashioned',
-    price: '$31',
-    tags: 'Bourbon | Brown sugar | Angostura Bitters',
-  },
-  {
-    title: 'Negroni',
-    price: '$26',
-    tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
+    title: "Redondo de pollo trufado",
+    price: "6,00€",
+    tags: "Alérgenos",
   },
 ];
 
-const awards = [
+const postres = [
   {
     imgUrl: images.award02,
-    title: 'Bib Gourmond',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: "Tarta de queso (especialidad de la casa)",
+    subtitle: "3,50€",
   },
   {
     imgUrl: images.award01,
-    title: 'Rising Star',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: "Tarta de dulce de leche",
+    subtitle: "3,50€",
   },
   {
     imgUrl: images.award05,
-    title: 'AA Hospitality',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
-  },
-  {
-    imgUrl: images.award03,
-    title: 'Outstanding Chef',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: "Coulant con chocolate",
+    subtitle: "3,50€",
   },
 ];
 
-export default { wines, cocktails, awards };
+export default { primeros, segundos, postres };
