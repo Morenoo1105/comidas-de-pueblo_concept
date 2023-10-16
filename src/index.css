@@ -19,6 +19,12 @@
   scroll-behavior: smooth;
 }
 
+body {
+  background: var(--color-black);
+  display: flex;
+  justify-content: center;
+}
+
 a {
   color: unset;
   text-decoration: none;

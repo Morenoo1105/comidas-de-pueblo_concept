@@ -5,7 +5,13 @@
   align-items: center;
   padding: 1rem 2rem;
 
-  background: var(--color-black);
+  /* background: var(--color-black); */
+  background: rgba(0, 0, 0, 0.8);
+
+  position: fixed;
+  max-width: 1920px;
+  z-index: 5;
+  backdrop-filter: blur(10px);
 }
 
 .app__navbar-logo {

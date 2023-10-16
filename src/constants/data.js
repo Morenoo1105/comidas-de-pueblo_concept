@@ -53,17 +53,17 @@ const segundos = [
 
 const postres = [
   {
-    imgUrl: images.award02,
+    imgUrl: images.award01,
     title: "Tarta de queso (especialidad de la casa)",
     subtitle: "3,50€",
   },
   {
-    imgUrl: images.award01,
+    imgUrl: images.award02,
     title: "Tarta de dulce de leche",
     subtitle: "3,50€",
   },
   {
-    imgUrl: images.award05,
+    imgUrl: images.award03,
     title: "Coulant con chocolate",
     subtitle: "3,50€",
   },
