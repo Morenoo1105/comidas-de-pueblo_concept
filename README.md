@@ -1,7 +1,7 @@
 # Concepto de Landing Page para un local de comidas para llevar
 ### [Página funcional](https://morenno.net/demoWebs/ComidasDePueblo/)
 
-![Landing page de local de comidas para llevar](https://morenno.net/demoWebs/img_thumbnails/ComidasDePueblo.png)
+![Landing page de local de comidas para llevar](https://morenno.es/db/mock/comidas.png)
 
 ## Contenidos
 
